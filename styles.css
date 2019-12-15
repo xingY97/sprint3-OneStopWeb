@@ -1,3 +1,12 @@
+body{
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
@@ -12,4 +21,26 @@
 .nav-wrapper > .left-side > div {
     margin: 20px;
     font-size: 0.9rem;
+    text-transform: uppercase;
 }
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper :hover {
+    border-bottom: 2px solid black;
+}
+
+.nav-link-wrapper a :hover {
+    color: black];
+}
+
