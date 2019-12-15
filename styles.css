@@ -1,3 +1,4 @@
+/*master styles*/
 body{
     margin: 0px;
 }
@@ -6,7 +7,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 }
-
+/* nav styles*/
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
@@ -43,4 +44,11 @@ body{
 .nav-link-wrapper a :hover {
     color: black];
 }
+
+/* portfolio style */
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
